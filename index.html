@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body onload="show()">
+    <div class="header" id="header">
+
+    </div>
+    <div class="page_content">
+        <div class="hero_header">
+            <div class="container">
+                <div class="hero_header_body">
+                    <img class="hero_header_mobile_img" src="./images/bg1.png">
+                    <div class="hero_leader_title_caption">
+                        <h1 style="background-color:white; ">ASHWAGANDHA</h1>
+                    </div>
+                    <div class="hero-header__content tp-caption1-wd-3">
+                        A star performer for stress and energy in a potent,<br>
+                        organic caplet.
+                    </div>
+                    <div class="hero-header__conta tp-caption1-wd-4">
+                        <a href="shop.html"><button class="btn" style="cursor: pointer;">Shop Now</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop">
+            <div class="shoop_1">
+                <h3>Shop By Category</h3>
+            </div>
+            <div class="category">
+                <div class="row">
+                    <div class="c1">
+                        <div class="image">
+                            <a href="#"> <img src="./images/g1.png" height="300px"> </a>
+                        </div>
+                        <div class="text">
+                            <h2>Supplements</h2>
+                            <a href="#">See All Supllements</a>
+                        </div>
+                    </div>
+                    <div class="c2">
+                        <div class="image">
+                            <a href="#"><img src="./images/g.png" height="300px"> </a>
+                        </div>
+                        <div class="text">
+                            <h2>Oral Care</h2>
+                            <a href="#">See All Oral Care</a>
+                        </div>
+                    </div>
+                    <div class="c3">
+                        <div class="image">
+                            <a href="#"><img src="./images/g2.png" height="300px"></a>
+                        </div>
+                        <div class="text">
+                            <h2>Personal Care</h2>
+                            <a href="#">See All Personal Care</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="Seller">
+                <div class="seller_1">
+                    <h3 style="text-align: center;">Best Seller</h3>
+                </div>
+                <div class="slider">
+                    <div id="arrow">
+                        <button class="button" onClick="moveleft()">&lt;</button>
+                    </div>
+                    <div class="slide" id="c1" style="cursor: pointer;">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/Bitter-Melon-30---Box-Bottle_800x.png?v=1595862276">
+                        </div>
+                        <div class="text">
+                            <a href="#">Oranic bitter Melon</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$11.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="c2" style="cursor: pointer;">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/Whitening-Mint---Box-Tube_800x.png?v=1597743896">
+                        </div>
+                        <div class="text">
+                            <a href="#">Simply Mint Whitening Toothpaste</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p> $12.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide" id="c3">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/LiverCare-90---Box-Bottle_800x.png?v=1595815804">
+                        </div>
+                        <div class="text">
+                            <a href="#">LiveCare®</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$13.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="c4">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/ImmunoCare-120---Box-Bottle_800x.png?v=1595814320">
+                        </div>
+                        <div class="text">
+                            <a href="#">ImmunoCare®</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$11.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="c5">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/Neem-and-Pom---Box-Tube_800x.png?v=1597744049">
+                        </div>
+                        <div class="text">
+                            <a href="#">Neem & Pomegranate Original Toothpaste</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$11.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="c6">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-23_800x.png?v=1590836890">
+                        </div>
+                        <div class="text">
+                            <a href="#">Organic Amla</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$11.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="c7">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/Ashwagandha_BoxBottle_30_800x.jpg?v=1591028054">
+                        </div>
+                        <div class="text">
+                            <a href="#">Organic Ashwagandha</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$11.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="c8">
+                        <div class="images">
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/Gymnema_Box_Bottle_30s_800x.png?v=1591028093">
+                        </div>
+                        <div class="text">
+                            <a href="#">Organic Gymnema</a>
+                            <div class="cart_content">
+                                <div class="cart_img">
+                                    <img src="./images/cart.png">
+                                </div>
+                                <div class="cart_price">
+                                    <p>$11.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="arrow">
+                        <button class="button" onClick="moveright()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_container" style="padding: 0px 125px;">
+            <div class="middle_content">
+                <div class="img_gallery">
+                    <img
+                        src="https://cdn.shopify.com/s/files/1/0399/1728/9633/files/StressCareA-Main-647x1024.png?v=1591359475">
+                </div>
+                <div class="text_content">
+                    <h1 style="font-size: 29px; line-height: 1.4; ">Unlock the Wisdom of Herbs
+                        with Herbal Supplements,<br> Toothpaste & More!
+                    </h1>
+                    <p style="margin-top: 0; color: black;
+                font-size: 1rem;">Since 1930, Himalaya has been passionate about the healing wisdom of herbs.<br>
+                        We offer a wide range of clinically-studied herbal supplements,
+                        toothpaste and<br> personal care products that unlock the powerful healing benefits of herbs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="slider_2">
+            <div class="container_condent">
+                <div class="s" id="s1">
+                    <div class="text_container">
+                        <p>“Can't go a day without it. A total game-changer for stress.”</p>
+                    </div>
+                    <p class="author">Ashwagandha</p>
+                </div>
+                <div class="s" id="s2">
+                    <div class="text_container">
+                        <p>“I feel extremely focused.<br> I was joking to myself that I feel like Einstein.“</p>
+                    </div>
+                    <p class="author"> Bacopa</p>
+                </div>
+                <div class="s" id="s3">
+                    <div class="text_container">
+                        <p>“My 3-year-old loves it and<br> asks me if she can brush her teeth.
+                            Need I say more?"</p>
+                    </div>
+                    <p class="author"></p>
+                </div>
+                <div class="s" id="s4">
+                    <div class="text_container">
+                        <p>“We've tried countless fluoride-free toothpastes, <br>and this is our favorite!”</p>
+                    </div>
+                    <p class="author">Botanique Complete Care Toothpaste - Peppermint</p>
+                </div>
+                <div class="s" id="s5">
+                    <div class="text_container">
+                        <p>“I'm amazed. I'm less irritable and tired,<br> and more calm and centered."</p>
+                    </div>
+                    <p class="author"> Ashwagandha</p>
+                </div>
+                <div class="s" id="s6">
+                    <div class="text_container">
+                        <p>“Recommended to me by my local health food store.<br> This product is a godsend."</p>
+                    </div>
+                    <p class="author"> LiverCare®</p>
+                </div>
+                <div class="s" id="s7">
+                    <div class="text_container">
+                        <p>“Since taking this product, I have cut back considerably<br> on sugary snacks.”</p>
+                    </div>
+                    <p class="author">Gymnema</p>
+                </div>
+                <div class="s" id="s8">
+                    <div class="text_container">
+                        <p>“I will never use another toothpaste as<br> long as I can get this one.“</p>
+                    </div>
+                    <p class="author">Botanique Neem & Pomegranate Toothpaste</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-indent">
+            <div class="container">
+                <div style="margin-top: 80px"></div>
+            </div>
+        </div>
+        <div class="social_container">
+            <div class="social">
+                <h3>Follow us @himalayausa</h3>
+            </div>
+            <div class="social_insta">
+                <a href=""><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg"></a>
+            </div>
+            <div class="social_fb">
+                <a href=""><img
+                        src="https://icons-for-free.com/iconfiles/png/512/fb+logo+social+social+media+social+network+icon-1320191784115198611.png"></a>
+            </div>
+        </div>
+        <div class="social_platform">
+            <div class="social_image">
+                <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279060214_1028931348020017_977861928696093797_n.jpg?_nc_cat=107&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=PCCRJR5vXmsAX8jZyWa&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_mvsPqRFd4VgM-GFTt82x5t_VjvwY9GqyMveOSln-EGw&oe=627A7207">
+            </div>
+            <div class="social_image">
+                <img src="https://scontent.cdninstagram.com/v/t51.2885-15/277292932_5613162492028340_2851075865814001728_n.jpg?_nc_cat=104&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=dT4yTG96rc0AX--bTZS&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9nmIIItrM37QrlB0gR8EOOhQxIdJQkoRPFeYiwyxXN4w&oe=627AA98B">
+            </div>
+            <div class="social_image">
+                <img src="https://scontent.cdninstagram.com/v/t51.2885-15/210602775_2989071524684964_2920882526894167214_n.jpg?_nc_cat=106&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=t7yOCN7h8uEAX9db1cS&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9xtQfM6YZ3rNdUicvo3O5KwTFyH9InaBoVumgAeQ8pxQ&oe=627A4EC5">
+            </div>
+
+            <div class="social_image">
+                <img src="https://scontent.cdninstagram.com/v/t51.2885-15/204274359_2975479076040360_2380187042423867081_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=JyKI5GSLqh0AX9kl5Ph&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-XmZs2-tRMP9TKeN5BfB9HW8jyjeRs2BooiFeRbISZcA&oe=6278DA2B">
+            </div>
+        </div>
+        <div class="container-indent">
+            <div class="container">
+                <div style="margin-top: 80px"></div>
+            </div>
+            </div>
+        <div class="footer" id="footer">
+       
+        </div> 
+    </div>
+
+</body>
+
+</html>
+
+<script src="./scrtipt/slider.js"></script>
+<script type="module" src="./components/navbar_fotbar.js"></script>

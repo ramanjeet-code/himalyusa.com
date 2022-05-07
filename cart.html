@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/cart.css">
+
+</head>
+<body>
+    <div id="header" class="header">
+
+    </div>
+    <div class="Cart_container">
+        <div>
+            <h1 style="text-align: center;">Shopping Cart</h1>
+        </div>
+        <div class="ptn_cart_page" id="ptn_cart_page">
+           
+                <!-- <div class="pt_item_btn">
+                    <button class="del_btn"><img src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-delete-icon-image_1129289.jpg"></button>
+                </div>
+                <div class="pt_item_img" id="pt_item_img">
+                    <img>
+                </div>
+                <div class="pt_item_descripition"></div> -->
+
+            </div>
+            <div id="total-div">
+                <h1 id="cart_total">
+                    <!--Show cart total here, do not add anything only Total value. Not even "Total - 1200Rs" but like this "1200" -->
+                  
+                </h1>
+            <button style="width: 200px; height: 50px; background-color: darkgreen;
+            border: none; color: aliceblue;" onclick="myFunction()"><h3>Checkout Order</h3></button>
+              </div>
+        </div>
+        <div class="footer" id="footer">
+
+        </div>
+    </div>
+</body>
+</html>
+<script>
+   function myFunction(){
+   swal({
+        title: "WOw",
+        text: " Your Order scuessfully",
+        type: "success",
+        icon:"success",
+        button: "Ok",
+     })
+
+    }
+</script>
+<script type="module" src="./components/navbar_fotbar.js"></script>
+<script src="./scrtipt/cart.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

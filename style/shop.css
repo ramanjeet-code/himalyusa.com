@@ -1,0 +1,23 @@
+.category{
+    display: flex;
+    gap: 60px;
+    padding: 0px 70px;
+}
+.category>div{
+    flex: 1;
+}
+.products_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(auto);
+    gap: 20px;
+}
+.p_grid img{
+    width: 200px;
+    height: 200px;
+}
+.cart_button{
+    border: none;
+     background: none;
+     color: white;
+}
