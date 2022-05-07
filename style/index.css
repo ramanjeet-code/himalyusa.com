@@ -279,6 +279,11 @@ height: auto;
 .hero_header {
     background: none !important;
     align-items: flex-start;
+    padding: 10px 96px;
+}
+.hero_leader_title_caption>h1{
+    padding: 94px 0px 2px 0px;
+
 }
 }
 @media only screen and (max-width: 768px){
@@ -287,3 +292,16 @@ height: auto;
     height: 232px;
 }
 }
+@media (max-width: 878px){
+.row{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto,1);
+}
+}
+@media (max-width: 545px){
+    .row{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(auto,3);
+        gap:10px
+    }
+    }
