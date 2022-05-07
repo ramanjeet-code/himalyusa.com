@@ -33,7 +33,7 @@ a{ text-decoration: none;color: gray; }
     flex:1
 }
 .hero_header{
-   border: black solid 2px;
+  
     background-color: #6b51ff;
     height:650px;
  background-image: url('/images/bg.png');
